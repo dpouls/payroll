@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="payroll.MainPage">
+
+    <StackLayout>
+        <Label Text="Welcome to Dallin's Payroll App!"
+                FontSize="30"
+                HorizontalTextAlignment="Center"
+                Margin="30"/>
+        <Button  x:Name="btnCalculate"
+                Text="Calculate Pay"
+                FontSize="30"
+                Margin="30"
+                Clicked="btnCalculate_Clicked"
+                />
+        <Label  Text="Results"
+                FontSize="30"
+                HorizontalOptions="Center"
+                />
+        <Label x:Name="lblResults"
+               HorizontalOptions="Center"
+               Text="Results..."
+               FontSize="30"
+               />
+
+    </StackLayout>
+
+</ContentPage>
